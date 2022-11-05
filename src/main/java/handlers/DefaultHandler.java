@@ -19,7 +19,7 @@ import java.net.HttpURLConnection;
  */
 public class DefaultHandler implements HttpHandler {
 
-    private final String webDirPath = System.getProperty("user.home") + "/Downloads/FamilyMapServerStudent-master/FamilyMapServerStudent-master/web";
+    private final String webDirPath = System.getProperty("user.home") + "/Documents/FamilyMapServerStudent-master/web";
     private final String html404Path = webDirPath + "/HTML/404.html";
 
     @Override
